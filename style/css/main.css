@@ -1,0 +1,181 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,input,textarea,th,td{margin:0;padding:0; list-style:none;outline:none}
+a{text-decoration: none; font-size:12px; outline:none}
+a:link{color:#2471BE;}
+a:visited{color:#2471BE;}
+a:hover{color:#F30; text-decoration: underline;}
+a:active{}
+.clear{width:100%; height:1px; clear:both}
+img{border:none}
+body{background: #EDF0F2}
+/*common css*/
+.TR5{ top:5px; right:5px; position:absolute}
+.TL5{ top:5px; left:5px;position:absolute}
+.BL5{ bottom:5px; left:5px;position:absolute}
+.BR5{ bottom:5px; right:5px;position:absolute}
+
+.R5{ border:1px solid #DDD; -moz-border-radius: 5px;  -webkit-border-radius: 5px; border-radius:5px;}
+.C{ clear:both}
+.E{position:relative}
+.S{position: absolute}
+.H{ display:none}
+.FR{float:right!important}
+.FL{float: left!important}
+/*common css end*/
+
+
+#eMain{width:972px;margin: 0 auto; }
+.main-top{background: url("img/head-pic.gif") center center no-repeat; height: 235px; position: relative;}
+.main-top .logo{display: block;position: absolute;height: 50px; width:120px;bottom: 6px; left: 80px}
+.main-top .text{position: absolute; display: block; width:650px; height: 100px; top:125px;left: 262px; color: #A2A7AB}
+.main-top .text{font-size: 13px;text-shadow:2px 2px 2px #DDD; line-height:20px; font-family:"微软雅黑" }
+
+.main-ipad{background: url("img/ipad.gif") center center no-repeat; height: 153px;}
+.main-xuan{background: url("img/nav.gif") center center no-repeat; height: 91px;}
+
+.main-body{margin: 0 6px; border: 1px solid #DCDBDB;border-top: none;background: #FDFDFD}
+.main-body .su1-6{background: url("img/go-ing.gif") top center no-repeat; height: 80px; display: block;margin: 0 34px; border-bottom: 1px dashed #D7D7D7}
+
+.cool-misc{margin:0 30px; border-bottom: 1px dashed #D7D7D7;padding: 20px 0}
+.cool-misc .misc-left{ width:420px;margin: 0 10px 0 0; border-right: 1px solid #4594D9; float: left;padding-right: 20px;height: auto}
+.cool-misc .misc-right{ width: 425px ;float:right;margin: 0;}
+
+.cool-misc .misc-title{background: url("img/icon.gif"); display: block;font-family: '微软雅黑'; height: 36px; color: #4297DB}
+.cool-misc .misc-title{padding: 2px 30px;font-weight: bolder;font-size: 16px}
+
+.cool-misc .misc-title strong{font-size: 18px}
+.cool-misc .misc-main{color: #7D7D7D;font-size: 14px;line-height: 25px;text-indent: 26px}
+.cool-misc .misc-main .icon-free{background: url("img/icon.gif") -8px -48px;width:78px; height: 32px;position: absolute;margin-top: -5px}
+.cool-misc .misc-main .icon-blue{color: #4594D9}
+
+.cool-misc .misc-list{}
+.cool-misc .misc-list span{display:inline-block;text-align:center; width:60px;font-size:12px;color:#368ED4;line-height:22px}
+
+.cool-misc .misc-video{height: 150px;width:390px; margin: 12px 5px 0 5px ;}
+.cool-misc .misc-video img{float:left;display: inline-block; border: 1px solid #28B0FC;padding:2px; margin: 0 5px}
+
+/*认证体系*/
+.cool-misc .misc-level{display: block;height: 155px;background: url("img/icon.gif") 0 -125px;margin: 16px 0 20px 0;}
+
+/*学员风采计算器*/
+.cool-misc .misc-count{background: url("img/icon.gif") 0 -300px;width:460px; height: 42px;font: 12px/1.5 Tahoma, Arial, "\5b8b\4f53", sans-serif;}
+.cool-misc .misc-count strong{font-size: 14px;display: block;padding: 4px 0 0 42px}
+.cool-misc .misc-count strong span{color:#F15D22; width:26px;font-size:26px;height: 30px;line-height: 30px; display: inline-block;float: left;margin-right: 1px;text-align: center;overflow: hidden;}
+
+.cool-misc .misc-list{position:relative}
+.cool-misc .misc-list .list-video{height: 135px;width:420px; margin: 5px 5px 0 5px; position:relative}
+.cool-misc .misc-list .list-video .text{position: absolute;text-align: left;line-height: 22px;width: 200px;left: 195px;height: 130px;top: 0;font-size: 13px;color: #6597DB;}
+.cool-misc .misc-list .list-video img{display: inline-block;border: 1px solid #28B0FC; padding:2px;margin: 0 5px}
+
+.cool-misc .misc-list .list-roll{overflow:hidden;height:100px;position:absolute;width:440px; right:-5px}
+.cool-misc .misc-list .list-roll .common{
+	background-image: url("img/icon.gif");
+	position:absolute; top:10px;height:80px; width:10px; cursor:pointer;
+}
+.cool-misc .misc-list .list-roll .left{left:0; background-position: -155px -350px; }
+.cool-misc .misc-list .list-roll .right{right:8px; background-position: -198px -350px;}
+ 
+.cool-misc .misc-list .list-roll .main{width:400px;font-size:12px;margin:5px 20px 0 20px; color:#3989CF}
+.cool-misc .misc-list .list-roll .main li{display:block; float:left; width:56px; height:85px;line-height:20px;text-align:center}
+
+/*学员分享*/
+.cool-misc .misc-sharing{}
+.cool-misc .misc-sharing .item{display: inline-block;width:350px;position: relative;padding-left: 90px;margin: 8px 0;line-height: 20px;float: left;}
+.cool-misc .misc-sharing .sing-pic{position: absolute;left: 10px;width:60px; height: 60px;padding: 2px;border: 1px solid #DDD;}
+.cool-misc .misc-sharing .sing-name{display: block;color: #4297DB;font-weight: bold;font-size: 14px}
+.cool-misc .misc-sharing .sing-cat{display: block;font-size: 12px;color: #928B8B}
+.cool-misc .misc-sharing .sing-site{display: block;text-decoration: underline}
+
+
+/*直击现场*/
+.cool-misc .misc-roll{position: relative;border:1px solid white; width:898px}
+.cool-misc .misc-roll .common{background-image: url("img/icon.gif"); width:30px;height: 38px; position: absolute;top:45px;cursor: pointer}
+.cool-misc .misc-roll .left{background-position: 0 -355px; left: 10px}
+.cool-misc .misc-roll .right{background-position: -50px -355px; right: 10px; }
+
+.cool-misc .misc-roll div.main{margin: 0 50px;display: block;height: 130px}
+.cool-misc .misc-roll div.main li{float: left;margin: 0 10px}
+.cool-misc .misc-roll div.main img{width: 166px; height: 115px;padding: 5px;border: 1px solid #CCC}
+
+
+/*媒体报道*/
+.cool-misc .misc-media{}
+.cool-misc .misc-media li{ font-size: 12px;color: #999999;line-height: 22px;padding: 0 0 0 20px}
+.cool-misc .misc-media li a{text-decoration: underline}
+
+/*版权*/
+.main-copy{text-align: center;padding: 20px 0 40px 0;font-size: 12px;color: #999999}
+.main-copy a{color: #999999}
+
+
+/*弹出窗口*/
+#dialog_bg{
+	position:fixed;
+	_position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	z-index:100;
+	display:none;
+}
+#dialog{
+	width:682px;
+	height:440px;
+	position:fixed;
+	_position:absolute;
+	left:50%;
+	top:-800px;
+	margin-left:-341px;
+	margin-top:-220px;
+	z-index:1000;
+}
+
+#dialog_c{
+	overflow:hidden;
+	padding:5px;
+	background: white;
+	width: 682px;
+}
+
+#dialog_close{ z-index:9999;
+	position:absolute;
+	right:-15px;
+	top:-10px;
+	background:url(img/dialog_close.png) left top no-repeat;
+	width:36px;
+	height:39px;
+	cursor:pointer;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/dialog_close.png', sizingMethod='scale');
+	background:none \9;
+}
+#loading{
+	line-height:400px;
+	font-size:14px;
+	color:#e20b1d;
+	text-align:center;
+	background:url(img/loading.gif) 250px center no-repeat;
+}
+
+.wids{width:100%;}
+.wid{width:960px; margin:auto}
+.l{float:left; width:260px}
+.r{float:right; width:560px}
+#tops{ height:27px; line-height:27px; background:url(../images/top_bg.png) repeat-x left top}
+#top{height:27px; line-height:27px;}
+#top ul li{ float:left; margin-right:28px}
+
+
+
+
+
+
+
+
+
+
+

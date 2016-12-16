@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+   *{list-style:none;font-family:Microsoft YaHei;}
+ img{display:block;}
+ p{margin:0;padding:0;display:block;}
+ a{text-decoration:none;}
+ ul,li{margin:0;padding:0;}
+ .fix{overflow-X:hidden;
+     overflow-Y:hidden;}
+ input{display:block;}
+ body{margin:0;
+ 	  padding:0;}
+	  
+.black{width:100%;
+       height:100%;
+	   position:fixed;
+	   background-color:black;
+	   opacity:0.5;
+	   filter:alpha(opacity=50);
+	   z-index:99;}
+	   
+.clearfix{clear:both;}
+
+/*顶部标题区*/
+.header_top{width:1000px;
+			height:270px;
+			background:url(../images/bgi_top.png) no-repeat;
+			margin:0 auto;}
+
+.header{width:860px;
+		margin:0 auto;
+		margin-top:-92px;}
+
+.header_top #logo{padding-top:20px;
+			   margin-left:20px;}
+		
+.header .title{margin:30px auto;}
+
+.header h1{text-align:center;
+		   color:#fff;
+		   padding-top:10px;
+		   padding-bottom:10px;}
+		   
+/*中部内容区*/
+.content_middle{width:1000px;
+				height:558px;
+				background:url(../images/bgi_middle.png) no-repeat;
+				margin:0 auto;}
+				
+.left{width:384px;
+	  float:left;
+	  margin-left:20px;} 
+
+.left img{margin:0 auto;}
+
+#left_text{width:384px;
+		   height:470px;
+		   }
+		   
+#left_text p{width:360px;
+			 margin:16px auto;
+			 font-size:14px;
+			 font-weight: 500;}
+			 
+.right{width:558px;
+	   float:right;}
+
+		   
+.right .k_line{width:558px;
+			   height:346px;
+			   margin-top:5px;
+			  margin-left: -20px;
+			   }
+
+#right_message{width:560px;
+			   height:220px;
+			   margin-top:13px;}
+			   
+#right_message .enter{width:540px;
+					  padding-top:30px;
+					  margin-left:-10px;}
+					  
+.enter{width:540px;
+	    }
+
+.enter .telnum{width:384px;
+			   height:52px;
+			   font-size:22px;
+			   float:left;}
+			   
+.enter #btn_sub{width:146px;
+			height:47px;
+			background:url(../images/btn.png) no-repeat 4px 0;
+			outline:none;
+			border-style:none;
+			float:none;
+			margin-top:6px;
+			padding-left:10px;}
+/*鼠标移到提交按钮上光标变成手型*/			
+#btn_sub {
+    cursor: pointer;
+}			
+
+			
+#right_message p{font-size:14px;
+		 		 color:#ffc000;
+		 		 margin-top:24px;}
+				 
+#right_message img{margin-left:-6px;
+				   margin-top:15px;}
+				
+#demo{width:280px;
+        height:19px;
+		overflow:hidden;
+		position:absolute;
+		top:786px;
+		left:50%;
+		margin-left:60px;}
+		   
+/*下部更新信息及公司介绍区*/		   
+.new{width:1000px;
+	 height:156px;
+	 background:url(../images/bgi_down.png) no-repeat;
+	 margin:0 auto;
+	 position:relative;}
+	 
+.new_content{width:1000px;
+			 position:absolute;
+			 left:46px;}
+	 
+.new ul{width:80px;
+		margin-top:47px;}
+		
+.new #new_one{float:left;
+			  margin-left:16px;
+			  width:200px;
+			  margin-right:80px;}
+			  
+.new #new_two{float:left;
+			  margin-right:200px;}
+
+.new #new_three{float:left;
+				margin-right:169px;}
+				
+.new #new_four{float:left;}		
+		
+.new ul li{margin-bottom:16px;}
+	 
+.foot{margin:0 auto;}
+
+/*确认框*/
+.text{width:400px;
+      height:200px;
+	  background:url(../images/tanchuang.jpg) no-repeat;
+	  position:fixed;
+	  top:50%;
+	  left:50%;
+	  margin-left:-200px;
+	  margin-top:-100px;
+	  border:#f00 1px solid;
+	  z-index:999;}
+	  
+.text h1{font-size:20px;
+         width:320px;
+		 margin:0 auto;
+		 margin-top:50px;}
+		 
+.text #close{width:30px;
+           height:30px;
+		   border-radius:30px;
+		   position:absolute;
+		   top:0;
+		   right:0;
+		   border:2px #666 solid;
+		   text-align:center;
+		   font-size:30px;
+		   line-height:25px;
+		   margin-top:-10px;
+		   margin-right:-10px;
+		   background-color:#fff;
+		   color:#000;}
+.text #close a{
+	color:#000;
+}	   
+		   
+.text #sure{width:100px;
+			height:40px;
+			border-radius:8px;
+			position:absolute;
+			top:50%;
+			right:50%;
+			margin-top:50px;
+			margin-right:-50px;
+			background:#ff0101;
+			font-size:24px;
+			font-weight:500;
+			color:#fff;
+			text-align:center;
+			line-height:40px;
+			color:#fff;}
+
+.text #sure a{
+	color:#fff;
+}	
+
+		
+
+
+ 
+
+
+		
+
+
+ 

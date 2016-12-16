@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ ul li {
+     list-style-type:none;
+ }
+ .mar{
+    margin-left: 180px;
+
+ }
+
+.logo{
+    position: absolute;
+    top:15px;
+}
+.liu{
+    position: absolute;
+    top:25px;
+    left: 428px;
+}
+.jin{
+    position: absolute;
+    top:224px;
+    left: 410px
+}
+.gao{
+    position: absolute;
+    top:224px;
+    left: 615px
+}
+.img_bag{
+    width: 100%;
+}
+.heima{
+    position: absolute;
+    top:155px;
+    left: 588px;
+}
+.tet_1{
+    width: 380px;
+    height: 530px;
+    background: #fff;
+    position: relative;
+    float: left;
+}
+.bag{
+    width: 100%;
+    background-color:#18191b;
+    overflow: hidden;
+    margin-top: -10px;
+}
+.bag .tet_1  .tet_img1{
+    margin-top: -17px;
+}
+.bag .tet_1  span{
+    width: 340px;
+    display: block;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 8px;
+    padding: 5px;
+
+
+}
+.bag .tet_1 h3{
+    color:red;
+    margin:15px 0px 0px 10px;
+
+}
+.bag .tet_1 p{
+    color: #1a1a1c;
+    font-weight: bold;
+    padding: 18px;
+
+}
+.right{
+    width: 590px;
+    height: 530px;
+    background: url("../images/right.gif");
+    float: left;
+    margin-left: 58px;
+    position: relative;
+
+}
+.posi{
+    margin: 20px 0px 0px 25px;
+}
+.txt{
+    float: left;
+    width: 250px;
+
+    font-size: 18px;
+    padding-left: 5px;
+    height: 40px;
+    margin-left: 55px;
+    margin-top: 25px;
+}
+.btn_1{
+    float: left;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+.btn_1:hover{
+    cursor:pointer;
+}
+.wenz{
+    clear:both;
+    color: yellow;
+    font-size: 13px;
+    text-align: center;
+}
+.houqu{
+    width: 480px;
+    height: 50px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 8px;
+    position: relative;
+
+}
+.hq{
+    margin-top: 9px;
+}
+/********/
+
+.demo1{
+    position: absolute;
+    top:0px;
+}
+.mulitline{
+    height: 18px;
+    font-size: 16px;
+    overflow: hidden;
+   margin-top: 17px;
+}
+.tab_bag{
+    width:100% ;
+        overflow: hidden;
+    position: absolute;
+   background: #18191b;
+}
+.tab_bag1{
+    width: 1030px;
+    height: 170px;
+    background: #3a3b3d;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 177px;
+    padding-top: 25px;
+}
+
+table{
+   border:1px solid #fff;
+    width: 1000px;
+    height: 140px;
+    margin: 0 auto;
+
+
+}
+table tr th{
+    color:red;
+    border:1px solid #fff;
+
+
+
+}
+table tr td{
+    border:1px solid #fff;
+    text-align: center;
+    color: #fff;
+}
+
+.mulitline{
+    margin-left:125px;
+
+}
+.sub{
+    position:absolute;
+    right: 61px;
+     margin-top: 17px;
+    width: 191px;
+    height: 50px;
+    opacity:0;
+}
+.sub:hover{
+    cursor:pointer;
+}
+
+

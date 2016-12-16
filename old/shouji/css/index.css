@@ -1,0 +1,104 @@
+
+input h1 h2 h3 h4 h5 h6 p {
+	padding:0px;
+	margin:0px;	
+}
+
+body{
+    font-family:"微软雅黑";
+	font: normal 100% Helvetica, Arial, sans-serif;
+}
+#body_text .logo{
+	position:absolute;
+	top:0px;
+}
+/**炒股两大难题*/
+#body_text .banner{
+	position:absolute;
+	top:218px;
+}
+/******输入区的背景图片****/
+#body_text .text_img{
+	position:absolute;
+	top:428px;
+}
+/**中间用户的输入区**/
+#body_text .text_img .text{
+	position:absolute;
+	border:2px solid #8db7e9;
+	top:30px;
+ 	left:46px;
+	border-radius:8px;		
+	box-sizing:border-box;
+	
+}
+/***/
+#body_text .text_img .text h1{
+	float:left;
+	position:relative;
+	font-size:14px;
+	font-weight:bold;
+	color:#c5e9ff;
+	margin:0px;
+	top:10px;
+	left:10px;
+}
+#body_text .text_img .text h2{
+	position:relative;
+	float:left;
+	font-size:12px;
+	color:#d4ddde;
+	font-weight:bold;
+	margin:0px;
+	top:10px;
+	left:40px;
+}
+/**第一个input**/
+#body_text .text_img  input{
+	outline:none;
+	margin:28px 0px 6px 15px;
+	width:190px;
+	height:32px;
+	border-radius:0px;
+	border:none;
+	font-size:16px;
+}
+
+/**包裹按钮的div*/
+#body_text .text_img  .text_btn {
+	  position: relative;
+	  bottom:10px;
+}
+/*选取 .text_img第一个元素（input）**/
+#body_text .text_img .text_btn:first-child{
+	
+	width:160px;
+	height:20px;
+}
+/****按钮****/
+#body_text .text_img .text_btn .btn {
+	position:absolute;
+
+	margin:0px;
+	margin-left:7px;
+	bottom:6px;
+	width:57px;
+	height:33px;
+	background:url("../images/btn.png") no-repeat;
+	background-size:57px 33px;	
+}
+#body_text .text_img .text_btn .btn:active {
+border:1px solid #001d4a;
+color: #000;
+}
+#body_text .text_img .text_btn .intro{
+
+
+}
+
+/**最下面的图片**/
+#body_text .bottom_img{
+	position:absolute;
+	top:629px;
+}
+

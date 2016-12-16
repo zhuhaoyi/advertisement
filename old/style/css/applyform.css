@@ -1,0 +1,60 @@
+﻿
+/** 原网单样式 **/
+div.page form{ margin:0; padding:0;} 
+div.page ul, div.page li{ margin:0; padding:0;}
+div.page select { font-size:12px;}
+
+div.page {width:930px;overflow:hidden; padding:20px 0 0 15px}
+div.page-narrow {width:659px; overflow:hidden; padding:20px 0 0 10px}
+div.changeWidth {min-width:220px;float:left;white-space:nowrap;}
+
+div.page .leftCol {float:left; overflow:hidden; width:764px;}
+div.page .leftCol-narrow {float:left; overflow:hidden; width:505px;}
+div.page .rightCol-narrow {float:left; border-left:1px solid #F6F6F6; width:130px; height:85px; margin:10px 0 0 0; overflow:hidden; padding-left:10px; padding-top:60px}
+div.page .rightCol {float:left; border-left:1px solid #F6F6F6; width:130px; height:65px; margin:10px 0 0 0;overflow:hidden; padding-left:20px; padding-top:40px}
+
+
+div.page input {width:166px; *width:164px; width:164px\9; height:20px; background-color:#F7F7F7; border:1px solid #CBCBCB;}
+div.page input.init {color:#B5B5B5;}
+div.page input.hover {border-color:#CBCBCB; background-color:#FFFFFF;}
+div.page input.focus {border-color:#E4AE61; background-color:#FDF7E7; color:#333333;}
+div.page input.done {border-color:#CBCBCB; background:#FFFFFF; color:#333333;}
+div.page .tip {color:#D12E2C;font-size:12px;}
+
+div.page label {float:left;padding-right:6px;_padding-right:3px;padding-top:3px;width:60px;}
+div.page .label-short {width:25px}
+div.page .msg{color:#D12E2C;}
+div.page .hide{display:none;}
+div.page ul {overflow:hidden;list-style:none;float:left;padding-right:25px;}
+div.page li {height:44px}
+div.page ul.normal {float:none; clear:left;}
+div.page ul.normal li {float:left;}
+div.page ul.normal li label{text-align:right;}
+
+div.page a.btn {display:block; width:129px; height:37px; background:#D72A22 url(img/tjsq.png) no-repeat top left;color:#FFFFFF;font-size:14px;font-weight:bold;line-height:37px;text-align:center;text-decoration:none;}
+div.page a.btn:link {background-position:0 -60px;}
+div.page a.btn:visited {background-position:0 -60px;}
+div.page a.btn:active {background-position:0 -104px;}
+
+
+/** 新网单样式 **/
+.apply-bottom h3{ height:56px; background:url('img/form-blue.png') 0 0 no-repeat;
+    border:none; text-indent:-9999px; position:relative;}
+.apply-bottom h3 span.tel-label{ background:none;}
+.apply-content{ border:1px solid #D4D4D4; border-top:none; padding-left:6px;
+    border-bottom-left-radius:5px; border-bottom-right-radius:5px;}
+
+div.page .rightcol{ width:133px; padding-left:17px;}
+div.page a.btn{ background:url('img/form-blue.png') no-repeat 0 -60px; width:133px; height:42px; line-height:42px;}
+div.page a.btn:hover{ background-position:0 -104px;}
+div.page #submitFrame{ width:930px; height:100px; border:none;}
+
+/* 表单头重写 */
+.apply-bottom h3, .apply-bottom h3 label, .apply-bottom h3 span.tel-label, .apply-bottom h3 span em.tel{
+    background:url('img/form-blue.png') 0 0 no-repeat;}
+.apply-bottom h3 { margin:0 10px; background-position:20px -150px; background-repeat:repeat-x;}
+.apply-bottom h3 label.label{ display:block; width:300px; height:56px; float:left; position:absolute; top:0px; left:-10px;}
+.apply-bottom h3 span.tel-label{ background-position:top right; position:absolute; top:0px; right:-10px; width:367px; height:56px;}
+.apply-bottom h3 span.tel-label em.tel{ float:left; display:block; width:350px; height:56px; background-position:0 -210px;}
+
+	

@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+*{font-family: "microsoft yahei";}
+body{margin:0;padding:0;}
+.clearfix{clear:both;}
+ul{margin:0;
+   padding:0;}
+a{text-decoration:none;
+  display:block;}
+.fix{ overflow-X:hidden;
+     overflow-Y:hidden;}
+
+/*页面内容*/
+.black{width:100%;
+       height:100%;
+	   position:fixed;
+	   background-color:black;
+	   opacity:0.5;
+	   filter:alpha(opacity=50);
+	   z-index:99;}
+
+.content{width:1000px;
+         margin:0 auto;}
+
+.content img{ display:block;
+			  margin:0;}
+			  
+/*诊断输入框内容*/
+.content #head{position:relative;}
+
+.content #head .zhengu #txb_stock{width:180px;
+								  height:34px;
+								  position:absolute;
+								  top:66%;
+								  right:26%;
+								  font-size:16px;
+								  }
+.content #head .zhengu p{display:block;
+						 position:absolute;
+						 top:65%;
+						 right:10.7%;
+						 font-size:14px;
+						 color:#fff;
+						 }
+								  
+.content #head .enter{width:330px;
+					  position:absolute;
+					  top:75.8%;
+					  right:11.4%;}
+								  
+.content #head .enter #txb_telnum{width:180px;
+								  height:34px;
+								  font-size:16px;
+								  float:left;
+								  margin-right:30px;}
+
+.content #head .enter #btn_sub{width:112px;
+							   height:46px;
+							   background:url(../image/btn.png) no-repeat;
+							   outline:none;
+							   border-style:none;
+							   float:left;
+							   }
+
+.content #head #demo{width:280px;
+        			 height:19px;
+					 overflow:hidden;
+					 position:absolute;
+					 top:90%;
+					 right:7%;
+					 color:#fff;}
+/*鼠标移到提交按钮上光标变成手型*/					 
+#btn_sub {
+    cursor: pointer;
+}
+					 
+/*弹出窗*/
+.text {width: 400px;
+       height: 200px;
+       background: url(../image/tanchuang.png) no-repeat;
+       position: fixed;
+       top: 50%;
+       left: 50%;
+       margin-left: -200px;
+       margin-top: -100px;
+       z-index: 999;}
+	   
+.text #sure {width: 100px;
+    		 height: 40px;
+    		 border-radius: 8px;
+    		 position: absolute;
+    		 top: 50%;
+    		 right: 50%;
+    		 margin-top: 50px;
+    		 margin-right: -50px;
+    		 background: #ff0101;
+    		 font-size: 24px;
+    		 font-weight: 500;
+    		 text-align: center;
+    		 line-height: 40px;}
+			 
+.text #sure a{color:#fff;}
+			 
+.text #close {width: 30px;
+    		  height: 30px;
+   		  	  border-radius: 30px;
+    		  position: absolute;
+    		  top: 0;
+    		  right: 0;
+    		  border: 2px #666 solid;
+    		  text-align: center;
+    		  font-size: 30px;
+    		  line-height: 25px;
+    		  margin-top: -10px;
+    		  margin-right: -10px;
+    		  background-color: #fff;}
+			  
+.text #close a{color:#000;}
+			  
+.text h1 {display: block;
+		  width:320px;
+    font-size: 20px;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+	margin:50px auto 0 auto;}
+

@@ -1,0 +1,14 @@
+
+
+安装步骤    
+
+
+1上传压缩吧内所有文件到FTP上web文件夹
+
+2,访问http://www.域名.com/tk 恢复数据库
+    默认登录账号密码:admin
+
+3,修改配置文件config.php的数据库配置信息
+
+4,后台地址http://www.域名.com/admin.php  默认账号密码admin
+   

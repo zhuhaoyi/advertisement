@@ -1,0 +1,72 @@
+*{margin:0;padding:0}
+body{font:normal 12px/1.6 Tahoma,simsun, Verdana, Lucida, Arial, Helvetica, sans-serif;color:#636363;background:#fff;}
+a:link{color:#636363;text-decoration:none;}
+a:visited{color:#810081;text-decoration:none;}
+a:hover{color:#39F;text-decoration:none;}
+img{border:0}
+ul,li{list-style-type: none;}
+h1,h2,h3{font-size:14px;font-weight:bold;}
+.clear{ width:100%; height:1px; clear:both}
+.wids{width:100%;}
+.wid{width:900px; margin:auto}
+.l{float:left;}
+.r{float:right;}
+
+#nav{height:60px; line-height:60px; background:url(../images/nav.png) no-repeat left top;}
+#banner{ width:892px; border:4px solid #ccc; height:250px; margin-top:8px; background:#fbfbfb}
+
+#main{ margin-top:6px;border:1px solid #d7d7d7}
+#main h3{width:100%; height:34px; background:url(../images/line.png) repeat-x left top; border-bottom:1px solid #d7d7d7; line-height:34px}
+#main h3 span{ margin-left:10px}
+#main_all ul{ width:100%; clear:both; border-bottom:1px dashed #ccc; height:110px}
+#main_all ul li{ float:left; height:110px}
+#main_all ul .li_01 img{width:138px; height:98px; margin:5px; border:1px solid #d7d7d7}
+#main_all ul .li_01 { width:150px; margin-right:5px}
+#main_all ul .li_02{ width:600px; border-right:1px solid #ccc; padding-right:5px;}
+#main_all ul .li_02 .title{ font-weight:600; font-size:10pt; height:30px; line-height:30px; color:#ff0000;}
+#main_all ul .li_02 .title span{ font-size:10pt; margin-left:30px; color:#000;}
+#main_all ul .li_02 .cont{ line-height:24px;}
+#main_all ul .li_02 .times{ text-align:right; margin-right:10px; color:#ccc;}
+#main_all ul .li_03{width:134px; float:right}
+#main_all ul .li_03 p{ text-align:center; height:30px; line-height:30px; margin-top:16px}
+#main_all ul .li_04{width:134px; float:right}
+#main_all ul .li_04 p{text-align:center; height:60px; line-height:60px; margin-top:26px}
+#bottom{ height:60px ; line-height: 60px; background:#2566A0; margin-top:8px; text-align:center;color:#fff;}
+
+#user_left{width:280px; height:230px; margin:10px; background:url(../images/sline.png) no-repeat right center; float:left}
+#user_top_1{ width:100%; line-height:24px;}
+#user_top_1 img{ float:left; margin-right:8px}
+#user_top_2 { height:40px; line-height:40px ; font-size:10pt; font-weight:bold;}
+#user_top_2 span{ margin-right:18px;color:#ff0000;}
+#user_top_3 ul li{ height:40px; width:120px; float:left; margin-left:10px; margin-top:10px}
+#user_top_3 ul li img {width:120px; }
+#user_right{ width:550px; height:230px; margin:10px; float:right}
+#user_right h3{ height:30px ; line-height:30px}
+.hiinput{ background:url(../images/tg.png) no-repeat left top; width:501px; height:56px; line-height:56px;}
+.hiinput input{ height:30px; border:1px solid #09F; width:300px;margin-left:120px; margin-top:11px; line-height:30px; padding-left:10px; font-size:14px; font-weight:bold; color:#ff0000;}
+.hip{ line-height:28px;}
+
+/**前台分页样式**/
+
+.Pagination {margin:10px 0 0;padding:5px 0;text-align:right; height:20px; line-height:20px; font-family:Arial, Helvetica, sans-serif,"宋体";}
+
+.Pagination a {margin-left:2px;padding:2px 7px 2px;}
+
+.Pagination .dot{ border:medium none; padding:4px 8px}
+
+.Pagination a:link, .Pagination a:visited {border:1px solid #dedede;color:#696969;text-decoration:none;}
+
+.Pagination a:hover, .Pagination a:active, .Pagination a.current:link, .Pagination a.current:visited {border:1px solid #dedede;color:#fff; background-color:#ff6600; background-image:none; border:#ff6600 solid 1px;}
+
+.Pagination .selectBar{ border:#dedede solid 1px; font-size:12px; width:95px; height:21px; line-height:21px; margin-left:10px; display:inline}
+
+.Pagination a.tips{_padding:4px 7px 1px;}
+
+#main_all tr{ height:30px; line-height:30px}
+#main_all tr input{ border:1px solid #ccc; height:24px; line-height:30px; width:300px}
+#conts{width:90%; margin:auto; line-height:28px; margin-top:30px; margin-bottom:30px; text-indent:2em}
+
+#user_rights{ width:550px; height:230px; margin:10px; float:right}
+#user_rights h3{ height:28px ; line-height:28px}
+#user_rights p{ line-height:24px}
+#zhifu p{ line-height:30px;}

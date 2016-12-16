@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <!-- 让 Bootstrap 兼容 IE 兼容模型 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 让 Bootstrap 兼容 国产浏览器的高速模型 -->
+    <meta name="renderer" content="webkit">
+    <!-- 实现响应式的设置 -->
+    <!--禁用缩放功能-->
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>手机诊股页</title>
+    <!-- 引入 Bootstrap 的 CSS 文件 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css"/>
+    <!--
+      IE 9版本之前的 IE 浏览器并不支持 HTML 5 提供的新标签
+      通过 html5shiv.js 文件实现兼容
+  -->
+    <!--
+      IE 9版本之前的 IE 浏览器并不支持 CSS 3 提供的媒体查询
+      通过 respond.js 文件实现兼容
+  -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="body_text" >
+<!----大背景----->
+    <div class="bag" class="container-fluid" >
+    	<!--图片响应试-->
+      	<img src="images/bag.png" class="img-responsive"/>     
+    </div>
+     <div class="logo">
+      	<img src="images/logo_01.png" class="img-responsive"/>
+     </div>
+     <div class="banner">
+     	<img src="images/banner1.png" class="img-responsive"/> 
+     </div>
+     <div class="text_img" class="img-responsive">
+         <img src="images/text_1_02.png" class="img-responsive"/>
+        <div class="text center-block" >
+         <!---用户输入区-->
+			<h1>什么时候买？什么时候卖？  &nbsp;&nbsp;马上测一测</h1>
+           
+           
+           <div class="text_btn">
+           	<form action="gczg.php" method="post" name="hiform">
+             <input type="tel" placeholder="您要查询的股票代码"  name="username"  id="username" value=""></input>
+           	 	<input type="tel"  placeholder="接受信息的手机号码" name="mobile"  id="mobile" value=""></input>
+				<input name="laiurl" type="hidden" id="laiurl" value="手机-诊股">
+            	<input type="submit"   class="btn"  name=""  id="" value=""></input>
+              </form> 
+           </div> 
+        </div>
+     </div>
+     <div class="bottom_img">
+     		<img src="images/buttom_01.png" class="img-responsive"/>
+            <!--<h3>国诚投资</h3>
+            <P>（中国证监会核准证券咨询机构 资格证号: ZX0180）</P-->
+            <img src="images/buttom_2.png" class="img-responsive"/>
+     </div> 
+</div>
+<!-- 引入 jQuery 文件 -->
+<script src="js/jquery-1.11.3.js"></script>
+<!-- 引入 Bootstrap 的 JS 文件 -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+
+window.onload = function() {
+    $(".banner").hide().fadeToggle(3000);
+   	$(".text_img").hide().fadeToggle(3000);  
+}
+
+
+	
+</script>
+</body>
+</html>
